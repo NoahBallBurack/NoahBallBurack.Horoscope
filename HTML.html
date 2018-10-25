@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Noah's Horoscope</title>
+    <script src="JS.js"></script>
+    <link rel="stylesheet" href="CSS Sheet.css">
+
+</head>
+
+
+<body onload="populateDays(0)">
+
+<div id="title">Horoscope</div>
+
+<div id="myName">By Noah Ball-Burack</div>
+
+<div id="birthdayMessage"></div>
+
+<input type="text" placeholder="Enter your name here" id="name">
+
+
+<div id="monthHeading">What month were you born?</div>
+<select id="month" onchange="populateDays(this.value)">
+    <option value="0">January</option>
+    <option value="1">February</option>
+    <option value="2">March</option>
+    <option value="3">April</option>
+    <option value="4">May</option>
+    <option value="5">June</option>
+    <option value="6">July</option>
+    <option value="7">August</option>
+    <option value="8">September</option>
+    <option value="9">October</option>
+    <option value="10">November</option>
+    <option value="11">December</option>
+</select>
+
+
+<div id="dayHeading">What day were you born?</div>
+<select id="day"></select>
+<br>
+<button onclick="onSubmit()" id="button">Submit</button>
+
+<div id="output"></div>
+
+<div id="image"></div>
+
+
+</body>
+
+
+</html>

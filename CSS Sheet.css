@@ -1,0 +1,70 @@
+body {
+    background: mediumpurple;
+    color: goldenrod;
+    font-family: cursive;
+}
+
+#title{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 1.5%;
+}
+
+#myName{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 1%;
+}
+
+#monthHeading, #dayHeading{
+    font-size: 18px;
+    margin-left: 17%;
+    margin-top: .7%;
+    margin-bottom:1%;
+}
+#month, #day {
+    font-size: 16px;
+    margin-left: 17%;
+    margin-top: .7%;
+    margin-bottom:1%;
+}
+
+#name, #month, #day{
+    border-color: goldenrod;
+    border-width: 3px;
+}
+
+#name{
+    padding: 3px;
+    margin-top:3.5%;
+    font-size: 16px;
+    margin-bottom: 1%;
+    margin-left: 17%;
+}
+
+#button {
+    margin-left: 17%;
+    margin-top: 1.5%;
+    font-size: 30px;
+    border-width: 3px;
+    border-color: goldenrod;
+}
+
+#image{
+    position: relative;
+    left:48%;
+    bottom: 390px;
+}
+
+#output{
+    margin-left: 17%;
+    font-size: 18px;
+    margin-top: 3%;
+}
+
+#actualMessage {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10px;
+    border: 5px groove goldenrod;
+}
